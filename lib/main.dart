@@ -1,25 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:t_shop_vs/app.dart';
 
+/// --- punto de entrada de la aplicación flutter
 void main() {
+  // Todo: Add Widget Binding
+  // Todo: Init Local Storage
+  // Todo: Await Native Splash
+  // Todo: Initialize Firebase
+  // Todo: Initialize Autentication
   runApp(const App());
-}
-
-class App extends StatelessWidget {
-  const App({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      themeMode: ThemeMode.system,
-      theme: ThemeData(
-        textTheme: const TextTheme(
-          bodyLarge: TextStyle(
-            fontSize: 14,
-            color: Colors.green,
-          ),
-        ),
-      ),
-      darkTheme: ThemeData(),
-    );
-  }
 }
